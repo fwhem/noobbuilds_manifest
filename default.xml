@@ -14,7 +14,9 @@
            sync-j="4" />
            
   <!-- fwhem repos -->
-  <project path="external/chromium-webview" name="platform_external_chromium-webview" groups="pdk" remote="fwhem" revision="m25" />  
+  <project path="manifest" name="noobbuilds_manifest" remote="fwhem" revision="m25" />  
+  <project path="external/chromium-webview" name="platform_external_chromium-webview" groups="pdk" remote="fwhem" revision="m25" />
+  <project path="vendor/noobbuilds" name="platform_vendor_noobbuilds" remote="fwhem" revision="m25" />  
 
   <!-- fwhem kernels -->
   <project path="kernel/huawei/angler" name="kernel_huawei_angler" groups="device,angler,broadcom_pdk" remote="fwhem" revision="1.6" />  
