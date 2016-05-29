@@ -22,7 +22,9 @@
   <project path="kernel/moto/shamu" name="kernel_moto_shamu" groups="device,shamu,broadcom_pdk" remote="fwhem" revision="mr2" />   
   
   <!-- fwhem proprietary vendor blobs -->
-  
+  <project path="vendor/huawei" name="platform_vendor_huawei" remote="fwhem" revision="mm" />
+  <project path="vendor/htc" name="platform_vendor_htc" remote="fwhem" revision="mm" />
+  <project path="vendor/moto" name="platform_vendor_moto" remote="fwhem" revision="mm" />  
 
   <!-- cm repos -->  
   
