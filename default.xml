@@ -14,20 +14,23 @@
            sync-j="4" />
            
   <!-- fwhem repos -->
-  <project path="manifest" name="noobbuilds_manifest" remote="fwhem" revision="m25" />  
+  <project path="manifest" name="noobbuilds_manifest" remote="fwhem" revision="m25" />
+  <project path="art" name="platform_art" groups="pdk" remote="fwhem" revision="m25" /> 
   <project path="external/chromium-webview" name="platform_external_chromium-webview" groups="pdk" remote="fwhem" revision="m25" />
-  <project path="system/core" name="platform_system_core" groups="pdk" remote="fwhem" revision="m25" /> 
-  <project path="vendor/noobbuilds" name="platform_vendor_noobbuilds" remote="fwhem" revision="m25" />  
+  <project path="external/guava" name="platform_external_guava" groups="pdk-cw-fs,pdk-fs" remote="fwhem" revision="m25" />
+  <project path="external/skia" name="platform_external_skia" groups="pdk,qcom_msm8x26" remote="fwhem" revision="m25" />    
+  <project path="system/core" name="platform_system_core" groups="pdk" remote="fwhem" revision="m25" />
+  <project path="vendor/noobbuilds" name="platform_vendor_noobbuilds" remote="fwhem" revision="m25" />
 
   <!-- fwhem kernels -->
-  <project path="kernel/huawei/angler" name="kernel_huawei_angler" groups="device,angler,broadcom_pdk" remote="fwhem" revision="1.6" />  
+  <project path="kernel/huawei/angler" name="kernel_huawei_angler" groups="device,angler,broadcom_pdk" remote="fwhem" revision="1.6" />
   <project path="kernel/htc/flounder" name="kernel_htc_flounder" groups="device,flounder,broadcom_pdk" remote="fwhem" revision="mr2" />
-  <project path="kernel/moto/shamu" name="kernel_moto_shamu" groups="device,shamu,broadcom_pdk" remote="fwhem" revision="mr2" />   
+  <project path="kernel/moto/shamu" name="kernel_moto_shamu" groups="device,shamu,broadcom_pdk" remote="fwhem" revision="mr2" />
   
   <!-- fwhem proprietary vendor blobs -->
   <project path="vendor/huawei" name="platform_vendor_huawei" remote="fwhem" revision="mm" />
   <project path="vendor/htc" name="platform_vendor_htc" remote="fwhem" revision="mm" />
-  <project path="vendor/moto" name="platform_vendor_moto" remote="fwhem" revision="mm" />  
+  <project path="vendor/moto" name="platform_vendor_moto" remote="fwhem" revision="mm" />
 
   <!-- cm repos -->  
   
@@ -37,7 +40,6 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
-  <project path="art" name="platform/art" groups="pdk" />
   <project path="bionic" name="platform/bionic" groups="pdk" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" />
@@ -124,7 +126,6 @@
   <project path="external/google-tv-pairing-protocol" name="platform/external/google-tv-pairing-protocol" groups="pdk-fs" />
   <project path="external/gptfdisk" name="platform/external/gptfdisk" groups="pdk-fs" />
   <project path="external/gtest" name="platform/external/gtest" groups="pdk" />
-  <project path="external/guava" name="platform/external/guava" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/hamcrest" name="platform/external/hamcrest" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/harfbuzz_ng" name="platform/external/harfbuzz_ng" groups="pdk,qcom_msm8x26" />
   <project path="external/hyphenation-patterns" name="platform/external/hyphenation-patterns" groups="pdk-fs" />
@@ -236,7 +237,6 @@
   <project path="external/selinux" name="platform/external/selinux" groups="pdk" />
   <project path="external/sepolicy" name="platform/external/sepolicy" groups="pdk" />
   <project path="external/sfntly" name="platform/external/sfntly" groups="pdk,qcom_msm8x26" />
-  <project path="external/skia" name="platform/external/skia" groups="pdk,qcom_msm8x26" />
   <project path="external/slf4j" name="platform/external/slf4j" groups="pdk-fs" />
   <project path="external/smali" name="platform/external/smali" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/sonic" name="platform/external/sonic" groups="pdk" />
