@@ -19,6 +19,9 @@
   <project path="external/chromium-webview" name="platform_external_chromium-webview" groups="pdk" remote="fwhem" revision="m25" />
   <project path="external/guava" name="platform_external_guava" groups="pdk-cw-fs,pdk-fs" remote="fwhem" revision="m25" />
   <project path="external/skia" name="platform_external_skia" groups="pdk,qcom_msm8x26" remote="fwhem" revision="m25" />
+  <project path="packages/apps/Contacts" name="platform_packages_apps_Contacts" groups="pdk-fs" remote="fwhem" revision="m25" />
+  <project path="packages/apps/ContactsCommon" name="platform_packages_apps_ContactsCommon" groups="pdk-fs" remote="fwhem" revision="m25" />
+  <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" groups="pdk-fs" remote="fwhem" revision="m25" />
   <project path="packages/apps/ExactCalculator" name="platform_packages_apps_ExactCalculator" groups="pdk-fs" remote="fwhem" revision="m25" />
   <project path="packages/apps/InCallUI" name="platform_packages_apps_InCallUI" groups="pdk-fs" remote="fwhem" revision="m25" />
   <project path="packages/apps/PhoneCommon" name="platform_packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs" remote="fwhem" revision="m25" />
@@ -362,10 +365,7 @@
   <project path="packages/apps/CarrierConfig" name="platform/packages/apps/CarrierConfig" groups="pdk-fs" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" groups="pdk-fs" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" groups="pdk-fs" />
-  <project path="packages/apps/ContactsCommon" name="platform/packages/apps/ContactsCommon" groups="pdk-fs"/>
   <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" groups="pdk-fs" />
-  <project path="packages/apps/Dialer" name="platform/packages/apps/Dialer" groups="pdk-fs" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" groups="pdk-fs" />
   <project path="packages/apps/FMRadio" name="platform/packages/apps/FMRadio" groups="pdk-fs" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" groups="pdk-fs" />
