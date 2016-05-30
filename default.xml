@@ -18,7 +18,9 @@
   <project path="art" name="platform_art" groups="pdk" remote="fwhem" revision="m25" /> 
   <project path="external/chromium-webview" name="platform_external_chromium-webview" groups="pdk" remote="fwhem" revision="m25" />
   <project path="external/guava" name="platform_external_guava" groups="pdk-cw-fs,pdk-fs" remote="fwhem" revision="m25" />
-  <project path="external/skia" name="platform_external_skia" groups="pdk,qcom_msm8x26" remote="fwhem" revision="m25" />    
+  <project path="external/skia" name="platform_external_skia" groups="pdk,qcom_msm8x26" remote="fwhem" revision="m25" />
+  <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="fwhem" revision="m25" />
+  <project path="packages/services/Telephony" name="platform_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="fwhem" revision="m25" />
   <project path="system/core" name="platform_system_core" groups="pdk" remote="fwhem" revision="m25" />
   <project path="vendor/noobbuilds" name="platform_vendor_noobbuilds" remote="fwhem" revision="m25" />
 
@@ -404,8 +406,6 @@
   <project path="packages/screensavers/PhotoTable" name="platform/packages/screensavers/PhotoTable" groups="pdk-fs" />
   <project path="packages/screensavers/WebView" name="platform/packages/screensavers/WebView" groups="pdk-fs" />
   <project path="packages/services/Mms" name="platform/packages/services/Mms" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/services/Telecomm" name="platform/packages/services/Telecomm" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/services/Telephony" name="platform/packages/services/Telephony" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" groups="pdk-fs" />
   <project path="packages/wallpapers/Galaxy4" name="platform/packages/wallpapers/Galaxy4" groups="pdk-fs" />
   <project path="packages/wallpapers/HoloSpiral" name="platform/packages/wallpapers/HoloSpiral" groups="pdk-fs" />
