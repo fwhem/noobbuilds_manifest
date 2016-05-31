@@ -15,7 +15,10 @@
            
   <!-- fwhem repos -->
   <project path="manifest" name="noobbuilds_manifest" remote="fwhem" revision="m25" />
-  <project path="art" name="platform_art" groups="pdk" remote="fwhem" revision="m25" /> 
+  <project path="art" name="platform_art" groups="pdk" remote="fwhem" revision="m25" />
+  <project path="device/htc/flounder" name="device_htc_flounder" groups="device,flounder,broadcom_pdk" remote="fwhem" revision="m25" />
+  <project path="device/huawei/angler" name="device_huawei_angler" groups="device,angler,broadcom_pdk" remote="fwhem" revision="m25" />
+  <project path="device/moto/shamu" name="device_moto_shamu" groups="device,shamu,broadcom_pdk" remote="fwhem" revision="m25" />
   <project path="external/chromium-webview" name="platform_external_chromium-webview" groups="pdk" remote="fwhem" revision="m25" />
   <project path="external/guava" name="platform_external_guava" groups="pdk-cw-fs,pdk-fs" remote="fwhem" revision="m25" />
   <project path="external/sepolicy" name="platform_external_sepolicy" groups="pdk" remote="fwhem" revision="m25" />
@@ -68,9 +71,6 @@
   <project path="device/generic/qemu" name="device/generic/qemu" />
   <project path="device/generic/x86" name="device/generic/x86" groups="pdk" />
   <project path="device/generic/x86_64" name="device/generic/x86_64" groups="pdk" />
-  <project path="device/htc/flounder" name="device/htc/flounder" groups="device,flounder,broadcom_pdk" />
-  <project path="device/huawei/angler" name="device/huawei/angler" groups="device,angler,broadcom_pdk" />
-  <project path="device/moto/shamu" name="device/moto/shamu" groups="device,shamu,broadcom_pdk" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
