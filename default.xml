@@ -29,6 +29,7 @@
   <project path="packages/apps/ExactCalculator" name="platform_packages_apps_ExactCalculator" groups="pdk-fs" remote="fwhem" revision="m25" />
   <project path="packages/apps/InCallUI" name="platform_packages_apps_InCallUI" groups="pdk-fs" remote="fwhem" revision="m25" />
   <project path="packages/apps/PhoneCommon" name="platform_packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs" remote="fwhem" revision="m25" />
+  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" groups="pdk-fs" remote="fwhem" revision="m25" />
   <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="fwhem" revision="m25" />
   <project path="packages/services/Telephony" name="platform_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="fwhem" revision="m25" />
   <project path="system/core" name="platform_system_core" groups="pdk" remote="fwhem" revision="m25" />
@@ -381,7 +382,6 @@
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" groups="pdk-fs" />
   <project path="packages/apps/Phone" name="platform/packages/apps/Phone" groups="pdk-fs" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" groups="pdk-fs" />
-  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" groups="pdk-fs" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" groups="pdk-fs" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" groups="pdk-fs" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" groups="pdk-fs" />
