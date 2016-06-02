@@ -14,7 +14,7 @@
            sync-j="4" />
            
   <!-- fwhem repos -->
-  <project path="build" name="platform/build" groups="pdk" remote="fwhem" revision="m25" >
+  <project path="build" name="platform_build" groups="pdk" remote="fwhem" revision="m25" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>  
   <project path="manifest" name="noobbuilds_manifest" remote="fwhem" revision="m25" />
