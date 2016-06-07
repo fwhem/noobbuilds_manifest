@@ -9,7 +9,7 @@
            sync-j="6" />
   <remote  name="cm"
            fetch="https://github.com/CyanogenMod/" />
-  <default revision="refs/tags/android-6.0.1_r25"
+  <default revision="refs/tags/android-6.0.1_r45"
            remote="aosp"
            sync-j="4" />
            
