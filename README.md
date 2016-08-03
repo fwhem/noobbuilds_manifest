@@ -2,9 +2,9 @@
 
   # Latest AOSP Update
   
-    N6 = Nexus 6 =   shamu  = Android 6.0.1_r54 = MTC19Z
-    N6P = Nexus 6P = angler = Android 6.0.1_r54 = MTC19Z
-    N9 = Nexus 9 = flounder = Android 6.0.1_r54 = MTC19Z
+    N6 = Nexus 6 =   shamu  = Android 6.0.1_r62 = MTC20F
+    N6P = Nexus 6P = angler = Android 6.0.1_r62 = MTC20F
+    N9 = Nexus 9 = flounder = Android 6.0.1_r62 = MTC20F
 
     
   # Get NOOBBUILDS Source
